@@ -4,15 +4,25 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a **documentation and research repository** for the Guild Protocol - a conceptual protocol for organizing knowledge work through outcome-based matching, portable reputation, and transparent pricing. There is no source code, build system, or tests.
+This is a **documentation and research repository** for the Guild Protocol - a P2P protocol for organizing knowledge work through outcome-based matching, portable reputation, and transparent pricing. There is no source code, build system, or tests.
 
-## Repository Contents
+## Repository Structure
 
-- **the_guild_protocol_whitepaper_v1_9.md** - Core whitepaper describing the protocol architecture (quests, teams, reputation, guilds, arbitration)
-- **customer_discovery_research*.md** - Market research on target segments (fringe projects, budget-constrained startups, OSS foundations)
-- **gemini_*_prompt.md** - Research prompts for gathering market intelligence
-- **guild_linkedin_post*.md** - Marketing content drafts
-- **PDF files** - Research reports and pitch deck
+```
+.
+├── whitepaper.md                              # Core protocol architecture (quests, teams, reputation, guilds, arbitration)
+├── staffing-industry-analysis.md              # Staffing industry exploitation analysis with sourced data
+├── customer-discovery-research.md             # Customer journey analysis (fringe projects, startups, OSS foundations)
+├── customer-discovery-research.pdf            # PDF version of customer discovery research
+├── knowledge-work-decommoditization-research.pdf  # Deep research on structural shifts in pricing/assembly/governance
+├── guild_protocol_pitch_deck.pptx             # Pitch deck
+├── research/
+│   ├── gemini-customer-discovery-prompt.md    # Gemini Deep Research prompt for customer discovery
+│   └── gemini-research-prompt.md              # Gemini Deep Research prompt for market intelligence
+└── marketing/
+    ├── linkedin-post-v2.md                    # LinkedIn post draft v2
+    └── linkedin-post-with-research.md         # LinkedIn post with sourced research citations
+```
 
 ## Key Concepts
 
@@ -27,7 +37,7 @@ The protocol organizes around:
 
 When editing documents:
 - Maintain consistency with terminology defined in the whitepaper
-- Numbers and statistics should have verifiable sources (see linkedin_post_with_research.md for source citation pattern)
+- Numbers and statistics should have verifiable sources (see marketing/linkedin-post-with-research.md for source citation pattern)
 - The whitepaper is the source of truth for protocol mechanics
 
 When adding research:
